@@ -1,0 +1,33 @@
+{
+    "name": "wdio",
+    "version": "1.0.0",
+    "description": "WebDriverIO Project",
+    "main": "index.js",
+    "scripts": {
+        "test": "test",
+        "wdio": "wdio run wdio.conf.js",
+        "regression": "wdio run wdio.conf.js --suite regression",
+        "smoke": "wdio run wdio.conf.js --suite smoke",
+        "shadow": "wdio run wdio.conf.js --suite shadow",
+        "parallelSkip": "wdio run wdio.conf.js --suite parallelSkip",
+        "sauceDemo": "wdio run wdio.conf.js --suite sauceDemo",
+        "geoLocation": "wdio run wdio.conf.js --suite geoLocation",
+        "citrix":"wdio run wdio.conf.js --suite citrix"
+    },
+    "author": "Vineet Menta",
+    "license": "ISC",
+    "devDependencies": {
+        "@wdio/allure-reporter": "^7.16.14",
+        "@wdio/cli": "^7.16.14",
+        "@wdio/devtools-service": "^7.16.15",
+        "@wdio/dot-reporter": "^7.16.14",
+        "@wdio/junit-reporter": "^7.16.15",
+        "@wdio/local-runner": "^7.16.14",
+        "@wdio/mocha-framework": "^7.16.14",
+        "@wdio/spec-reporter": "^7.16.14",
+        "chai": "^4.3.6",
+        "chromedriver": "^97.0.4",
+        "mocha-junit-reporter": "^2.0.2",
+        "wdio-chromedriver-service": "^7.2.6"
+    }
+}

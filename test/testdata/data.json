@@ -1,0 +1,6 @@
+{
+    "searchQuery" : "Hello World!",
+    "expectedTitle" : "Hello World! - Google Search",
+    "secondSearchQuery" : "Pushpa",
+    "secondExpectedTitle" : "Pushpa - Google Search"
+}
